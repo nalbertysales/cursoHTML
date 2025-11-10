@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grouping Tags</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+      }
+
+      header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+      }
+      nav {
+        background-color: rgb(114, 114, 114);
+        box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.384);
+      }
+
+      nav > a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      a:hover {
+        color: green;
+        text-decoration: underline;
+      }
+
+      main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+      }
+
+      article {
+        background-color: lightgray;
+        padding: 10px;
+      }
+
+      article > aside {
+        font-family: "Times New Roman", Times, serif;
+        background-color: rgb(167, 167, 167);
+        padding: 5px;
+      }
+
+      footer {
+        background-color: black;
+        color: white;
+        padding: 5px;
+        text-align: center;
+        margin: 0px;
+      }
+
+      footer > p {
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Meu site</h1>
+      <nav>
+        <a href="https://gemini.google.com/app/94f7363993d5d9c8?hl=pt-BR"
+          >Link</a
+        >
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assunto"></section>
+      <section>
+        <article>
+          <h2>Noticias sobre o Brasil</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
+            modi, explicabo culpa minus maxime veritatis quod praesentium.
+            Magnam ducimus maiores atque libero, quis, fugiat alias nesciunt
+            accusamus nisi, quia voluptates.
+          </p>
+          <aside>Artigo escrito por José da Silva</aside>
+        </article>
+      </section>
+    </main>
+    <footer><p>Todos os direitos reservados</p></footer>
+  </body>
+</html>

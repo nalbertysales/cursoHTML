@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(233, 230, 89);
+}
+
+h1 {
+  color: rgb(161, 137, 0);
+  font-size: 50px;
+}
+
+p {
+  color: rgb(161, 137, 0);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+li {
+  font-size: 19px;
+  color: rgb(161, 137, 0);
+}
