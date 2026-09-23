@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexible box</title>
+    <style>
+      body {
+        background-color: rgb(117, 117, 117);
+      }
+      div.conteiner {
+        background-color: lightsalmon;
+
+        display: flex;
+        flex-flow: row nowrap;
+      }
+
+      div.item {
+        background-color: lightskyblue;
+        border: 1px solid black;
+        text-align: center;
+        flex-basis: 350px;
+      }
+
+      div#i1 {
+        flex-grow: 0;
+        flex-shrink: 1;
+      }
+      div#i2 {
+        flex-grow: 2;
+        flex-shrink: 0;
+      }
+      div#i3 {
+        flex-grow: 1;
+        flex-shrink: 2;
+      }
+
+      /* Para simplificar e deixar menos poluido usar o exemplo:
+      flex =  0 1 150px
+      a ordem é : flex = flex-grow + flex-shrink + flex-basis*/
+    </style>
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="item" id="i1">A</div>
+      <div class="item" id="i2">B</div>
+      <div class="item" id="i3">C</div>
+    </div>
+  </body>
+</html>
